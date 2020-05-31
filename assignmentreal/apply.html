@@ -1,0 +1,122 @@
+
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Short+Stack&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="js.js">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SSH Apply</title>
+    
+<body>
+<div class="content">       
+<h2 style="text-align:center; font-family: fantasy">SOUTHAMPTON STUDENT HOUSING</h2>
+</div>
+<style>
+          
+          
+
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+overflow: hidden;
+background-color: #333;
+}
+
+.nav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.nav a:hover {
+background-color: #ddd;
+color: rgb(15, 14, 14);
+}
+
+.nav a.active {
+background-color: rgb(17, 17, 17);
+color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="nav">
+<a href="index.html">Home</a>
+<a href="news.html">News</a>
+<a href="about.html">About</a>
+<a class="active" href="apply.html">Apply</a>
+</div>
+
+
+<div class="container">
+    <form action="thankyou.html">
+      <div class="row">
+        <div class="col-25">
+          <label for="fullname">Full Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fullname" name="fullname" placeholder="Your fullname..." required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="phoneno">Contact Number</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="phoneno" name="phoneno" placeholder="Your phone number..." required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Occupiers">Occupiers</label>
+        </div>
+        <div class="col-75">
+            <select id="Occupiers" name="Occupiers" placeholder="Amount of students..."required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Weekly Price Range">Weekly Price Range</label>
+        </div>
+        <div class="col-75">
+          <select id="Weekly Price Range" name="Weekly Price Range" required>
+            <option value="£50 - £75">£50 - £75</option>
+            <option value="£75 - £100">£75 - £100</option>
+            <option value="£100 - £125">£125 - £150</option>
+            <option value="£150+">£150+</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="specs">Specifications</label>
+        </div>
+        <div class="col-75">
+          <textarea id="Specifications" name="Specifications" placeholder="Such as preferred area, bills included etc..." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</html>
